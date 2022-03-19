@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://pixabay.com/get/g75423f2fbd2b1a5fb57f33fa000e0767e7a9f6062acc7126644774e09ca469deeb075db5e9e3dee088fd7671ba3e73aa.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 4rem;
+  color: #f4f4f4;
+}
+
+ul {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding-top: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cdcdcd;
+}
+
+a:hover {
+  color: #f4f4f4;
+}
+
+i {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  color: steelblue;
+}
+
+/******************************** media-queries *************************/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

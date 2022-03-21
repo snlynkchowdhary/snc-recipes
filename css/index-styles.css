@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(https://pixabay.com/get/g75423f2fbd2b1a5fb57f33fa000e0767e7a9f6062acc7126644774e09ca469deeb075db5e9e3dee088fd7671ba3e73aa.jpg);
+    url(../images/food_background.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
